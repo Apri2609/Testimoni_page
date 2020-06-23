@@ -1,0 +1,191 @@
+.container{
+	background-color: white;
+	font-family: helvetica;
+	margin: 0px 50px;
+	text-align:center;
+}
+
+.container .heading h1{
+	font-size:50px;	
+	margin-bottom:0;
+	margin-top:20px;
+}
+
+.heading p{
+	font-size:20px;
+	margin-top:0px;
+	margin-bottom:50px;
+}
+
+.kotakkiri{
+	background-color:#00CED1;
+	border-radius:10px;
+	float:left;
+	display:inline-block;
+    width:46%;
+	height:154px;
+	padding: 20px 15px;
+}
+
+.kotakkiri img{
+	height:130px;
+	width:100px;
+	float:left;
+	margin:12px 12px;
+}
+
+.kotakkiri h1{
+	font-size:15px;
+	text-align:left;
+	margin-left:10px;
+	margin-bottom:0;
+}
+
+.kotakkiri h2{
+	font-size:13px;
+	text-align:left;
+	margin:0 10px;
+	color:white;
+}
+
+.kotakkiri p{
+	text-align:justify;
+	font-size:12px;
+	color:black;
+	margin-right:20px
+	margin-top:0;
+}
+
+.kotakkanan{
+	background-color:#00CED1;
+	border-radius:10px;
+	float:right;
+	display:inline-block;
+    width:46%;
+	height:154px;
+	padding: 20px 15px;
+}
+
+.kotakkanan img{
+	height:130px;
+	width:100px;
+	float:left;
+	margin:12px 12px;
+}
+
+.kotakkanan h1{
+	font-size:15px;
+	text-align:left;
+	margin-left:10px;
+	margin-bottom:0;
+}
+
+.kotakkanan h2{
+	font-size:13px;
+	text-align:left;
+	margin:0 10px;
+	color:white;
+}
+
+.kotakkanan p{
+	text-align:justify;
+	font-size:12px;
+	color:black;
+	margin-right:20px
+	margin-top:0;
+	margin-bottom:20px;
+}
+
+@media screen and (max-width:767px) {
+ .container{
+ display: flex;  
+ flex-direction: column;
+ }
+ 
+ .container .heading h1 {
+ font-size:45px; 
+ text-align:center;
+ }
+ 
+ .heading p{
+ font-size:18px;
+ text-align:center;
+ }
+ 
+ .kotakkiri{
+ background-color:#00CED1;
+ border-radius:10px;
+ float:center;
+ display:auto;
+ width:90%;
+ height:330px;
+ padding: 7px 7px;
+ margin:7px;
+ }
+ 
+ .kotakkiri img{
+ height:200px;
+ width:205px;
+ float:center;
+ margin:7px;
+ }
+ 
+ .kotakkiri h1{
+ font-size:13px;
+ text-align:center;
+ margin:0 7px;
+ }
+ 
+ .kotakkiri h2{
+ font-size:11px;
+ text-align:center;
+ margin:0 7px;
+ color:white;
+ }
+ 
+ .kotakkiri p{
+ text-align:justify;
+ font-size:10px;
+ color:black;
+ margin:7px 7px;
+ }
+ 
+ .kotakkanan{
+ background-color:#00CED1;
+ border-radius:10px;
+ float:center;
+ display:auto;
+ width:90%;
+ height:330px;
+ padding: 7px;
+ margin : 7px;
+ }
+ 
+ .kotakkanan img{
+ height:200px;
+ width:205px;
+ float:center;
+ margin:7px 7px;
+ }
+ 
+ .kotakkanan h1{
+ font-size:13px;
+ text-align:center;
+ margin:0 7px;
+ }
+ 
+ .kotakkanan h2{
+ font-size:11px;
+ text-align:center;
+ display:block;
+ margin:0 7px;
+ color:white;
+ }
+ 
+ .kotakkanan p{
+ text-align:justify;
+ font-size:10px;
+ color:black;
+ margin:7px 7px;
+ }
+}
